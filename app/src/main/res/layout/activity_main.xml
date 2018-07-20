@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f3f5">
+
+    <TextView
+        android:id="@+id/tv_down_left"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="下方靠左"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_down_right"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="下方靠右"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_down_left_off_right"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#FFFFFF"
+        android:text="下方靠左右偏移"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_down_right_off_left"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="下方靠右左偏移"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_up_left"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:text="上方靠左"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_up_right"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="上方靠右"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_up_left_off_right"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="#FFFFFF"
+        android:text="下方靠左右偏移"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_up_right_off_left"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="下方靠右左偏移"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_normal_1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="正常显示，自动显示在下方左对齐"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_normal_2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="正常显示，自动显示在下方右对齐"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_normal_3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="正常显示，自动显示在上方左对齐"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_normal_4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="正常显示，自动显示在上方右对齐"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="顶部"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:text="底部"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+
+</RelativeLayout>
